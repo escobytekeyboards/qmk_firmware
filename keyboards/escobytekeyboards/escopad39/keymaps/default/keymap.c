@@ -23,7 +23,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB, KC_Q,   KC_W,    KC_E,    KC_R,    KC_T,              KC_UP,
         KC_ESC, KC_A,   KC_S,    KC_D,    KC_F,    KC_G,    KC_LEFT,  KC_DOWN, KC_RIGHT,
         KC_LSFT,KC_Z,   KC_X,    KC_C,    KC_V,    KC_B,              KC_ENT,
-        KC_LCTL,KC_LCTL,KC_LGUI, KC_LALT, KC_SPC,  MO(1),             TT(2)
+        TT(3),  KC_LCTL,KC_LGUI, KC_LALT, KC_SPC,  MO(1),             TT(2)
     ),
     [1] = LAYOUT( /* Second set of numbers, right half Alphas */
         KC_7,   KC_8,   KC_9,    KC_0,    KC_MINS, KC_EQL,  _______,  _______, _______,
@@ -38,7 +38,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_1,   KC_2,   KC_3,    KC_4,    KC_5,    KC_6,    KC_MS_L,  KC_MS_D, KC_MS_R,
         KC_7,   KC_8,   KC_9,    KC_0,    KC_MINS, KC_EQL,            KC_BTN1,
         _______,_______,KC_ACL0, KC_ACL1, KC_ACL2, KC_BTN2,           _______
-    )
+    ),
+    [3] = LAYOUT( /* Numpad, Media Controls, Capslock, PrintScreen */
+        KC_NUM, _______,KC_ESC,  KC_PSLS, KC_PAST, KC_PMNS, KC_BSPC,  KC_CAPS, QK_BOOT,
+        _______,_______,KC_P7,   KC_P8,   KC_P9,   KC_PMNS,           _______,
+        KC_MPLY,KC_MSTP,KC_P4,   KC_P5,   KC_P6,   KC_PPLS, _______,  _______, _______,
+        KC_MPRV,KC_MNXT,KC_P1,   KC_P2,   KC_P3,   KC_PPLS,           KC_PSCR,
+        _______,_______,_______, KC_P0,   KC_PDOT, KC_PENT,           _______
+    ),
 };
 
 

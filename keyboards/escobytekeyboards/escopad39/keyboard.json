@@ -1,6 +1,6 @@
 {
     "manufacturer": "pabloescobyte",
-    "keyboard_name": "handwired/escopad39",
+    "keyboard_name": "EscoPad39",
     "maintainer": "pabloescobyte",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
