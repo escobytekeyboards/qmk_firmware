@@ -1,6 +1,7 @@
 # escobytekeyboards/palette
 
 ![Palette](https://www.escobytekeyboards.com/wp-content/uploads/2025/01/escobytekeyboards-palette-macropad_hero_01_900x600.jpg)
+
 Palette is a low-profile, fully-programmable macropad with 10-keys and dual encoder knobs.
 
 Comes pre-flashed with default layout. Easily re-program using VIAL.
