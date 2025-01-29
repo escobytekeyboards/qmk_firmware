@@ -1,4 +1,4 @@
-# escobytekeyboards/palette
+# Escobyte Keyboards Palette
 
 ![Palette](https://www.escobytekeyboards.com/wp-content/uploads/2025/01/escobytekeyboards-palette-macropad_hero_01_900x600.jpg)
 
