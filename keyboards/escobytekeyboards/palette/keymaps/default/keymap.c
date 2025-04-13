@@ -19,20 +19,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT( /* Main Layer */
-        KC_MUTE,   KC_Q,   KC_W,    KC_E,   KC_LEFT,   KC_UP
-        TG(1),     KC_A,   KC_S,    KC_D,   KC_DOWN,   KC_RIGHT
+        KC_MUTE,   KC_Q,   KC_W,   KC_E,   KC_LEFT,   KC_UP,
+        TG(1),     KC_A,   KC_S,   KC_D,   KC_DOWN,   KC_RIGHT
     ),
     [1] = LAYOUT( /* Layer 1 */
-        _______,   KC_1,   KC_2,   KC_3,    KC_HOME,   KC_PGUP,
-        _______,   KC_4,   KC_5,   KC_6,    KC_PGDN,   KC_END
+        _______,   KC_1,   KC_2,   KC_3,   KC_HOME,   KC_PGUP,
+        _______,   KC_4,   KC_5,   KC_6,   KC_PGDN,   KC_END
     ),
 };
 
 
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
-      [0] = { ENCODER_CCW_CW(KC_WHLU, KC_WHLD),  ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
-      [1] = { ENCODER_CCW_CW(KC_DOWN, KC_UP),  ENCODER_CCW_CW(KC_LEFT, KC_RIGHT) },
+    [0] = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN),  ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
+    [1] = { ENCODER_CCW_CW(KC_DOWN, KC_UP),  ENCODER_CCW_CW(KC_LEFT, KC_RIGHT) },
 };
 #endif
 
